@@ -1,0 +1,8 @@
+ORG 100
+MOV AL, 15
+MOV BH, 29
+JMP label1
+MOV BL, 35
+label1: AND AL, 10
+ADD AL, BL
+HLT
